@@ -14,10 +14,10 @@ A simple Python CLI tool that uses the Twitter API v2 to scrape a user's tweets 
 
 ## 🖥 Preview
 
-Enter Twitter username to scrape: elonmusk
-How many tweets to scrape (max 100)? 5
-Do you want JSON of your scraped tweets? (Yes/No) yes
-✅ Saved to scrapped-data/elonmusk-tweets.json
+- Enter Twitter username to scrape: elonmusk
+- How many tweets to scrape (max 100)? 5
+- Do you want JSON of your scraped tweets? (Yes/No) yes
+- ✅ Saved to scrapped-data/elonmusk-tweets.json
 
 
 ---
