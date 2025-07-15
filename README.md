@@ -14,10 +14,4 @@ A Python-based Twitter scraper using Twitter API v2 and Tweepy. Easily fetch twe
 
 ---
 
-## 🧪 Demo
 
-```bash
-Fetching tweets from @TwitterDev...
-Tweet 1: 🧵 A thread on how to use the Twitter API v2
-Tweet 2: We just released a new endpoint!
-...
