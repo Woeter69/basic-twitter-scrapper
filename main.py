@@ -13,13 +13,15 @@ class Scrapper:
   def user_tweets(self,username,count):
     user = self.client.get_user(username=username) # gets the user_id
     tweets = self.client.get_users_tweets(id=user.data.id, max_results=count) # fetches tweets as object
-    for tweet in tweets.data():
+    for tweet in tweets.data:
       print(tweet.text)
 
 scarp = Scrapper() # self is scrap variable
 
 username = (input("Enter Username to Scarp Data From")).lower() # lower to keep it simplified
 count = int(input("How many tweets to scrap?")) 
+
+scarp.user_tweets(username,count)
 
 
 '''                       MUST READ TO UNDERSTAND THE CODE
